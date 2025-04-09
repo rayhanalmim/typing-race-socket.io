@@ -1,5 +1,5 @@
 import './App.css'
-import TypingRace from './Components/TypingRace'
+import TypingRace from './Components/TypingRace/TypingRace'
 
 function App() {
 
