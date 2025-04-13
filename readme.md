@@ -23,16 +23,17 @@ A real-time multiplayer typing race game built with **React (Vite)** and **Expre
 
 ### 1. Clone the Repository
 
-```bash
+```
 git clone https://github.com/your-username/typing-race-game.git
 cd typing-race-game
-
+```
 
 ### 2. Start the Backend (Express.js)
 
-```bash
+```
 cd race-server
 npm install
+```
 
 node index.js
 #The backend server will run at: http://localhost:3000
@@ -40,10 +41,11 @@ node index.js
 ### 3. Start the Frontend (React + Vite)
 Open a new terminal:
 
-```bash
+```
 cd typing-race
 npm install
 npm run dev
+```
 
 #The frontend will be available at: http://localhost:5174
 
