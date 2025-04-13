@@ -1,15 +1,18 @@
 const express = require("express");
-const http = require("http");
+
 const cors = require("cors");
-const { Server } = require("socket.io");
+
 const socketHandler = require("./sockets/socketHandler");
+
+const http = require("http");
+const { Server } = require("socket.io");
 
 const app = express();
 const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "*", // Update for production
+    origin: "*", 
     methods: ["GET", "POST"]
   }
 });

@@ -18,3 +18,5 @@ export default function JoinForm({ name, setName, handleJoin }) {
     );
   }
   
+
+  
